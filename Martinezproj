@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	string fullName;
+	int age, currentYr, birthYr, yearAt_60;
+
+
+
+
+	cout << "Enter Your Full Name: ";
+	getline(cin, fullName);
+
+	cout << "Enter Your Age:";
+	cin >> age;
+
+	cout << "Enter Current Year:";
+	cin >> currentYr;
+
+
+	yearAt_60 = (currentYr - age) + 60;
+
+	cout << "Your name is " << fullName << " you are " << age << " years old!";
+	cout << " You will turn 60 years old in the year " << yearAt_60 << endl;
+
+
+}
